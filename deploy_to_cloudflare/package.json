@@ -1,0 +1,21 @@
+{
+  "name": "israel-time-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "cf-typegen": "wrangler types"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@cloudflare/agents": "^0.0.50",
+    "agents": "^0.0.50",
+    "hono": "^4.7.4"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250109.0",
+    "typescript": "^5.7.3",
+    "wrangler": "^4.14.0"
+  }
+}
