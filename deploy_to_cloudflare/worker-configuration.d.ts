@@ -1,3 +1,3 @@
 interface Env {
-  // Add any environment bindings here if needed
+  QA_SESSION: DurableObjectNamespace;
 }
